@@ -25,6 +25,15 @@
   .bg-light{
     background: rgba(255, 144, 14, 0.1);
   }
+  .btn-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
 
 
   /* nav styles */
@@ -55,13 +64,38 @@
     max-width: 82%;
     margin: 0 auto;
   }
+  /* banner related styles */
+
+  .banner-content{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 860px;
+    margin-bottom: 50px;
+  }
   .brand-title{
     font-size: 4rem;
     font-weight: 700;
-  }
+    letter-spacing: 0%;
 
+  }
+  .brand-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding: 30px 0px;
+  }
+  .banner-image{
+    width: 100%;
+  }
 
   .main{
     max-width: 82%;
     margin: 0 auto;
+  }
+
+  @media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
   }
